@@ -25,4 +25,6 @@ $("#hoverdiv").mouseover(function(){
 
 $("#chest").click(function(){
     $("#chest").attr("src","https://www.colourbox.com/preview/25358362-treasure-chest.jpg");
+    $("#treasurep").hide();
+    $("#winrar, #winrar *").show();
 });
